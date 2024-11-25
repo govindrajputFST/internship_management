@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    flex-wrap: nowrap;
+  }
+
+  
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+  
+  .logo-highlight {
+    color: #ff5733;
+  }
+  
+  .nav-links {
+    font-size: larger;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    /* padding-left: 25%; */
+    flex-wrap: nowrap;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  .nav-links :hover{
+    color: #ff5733;
+  }
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  .auth-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .signup-btn {
+    background-color: #6c63ff;
+    color: white;
+    
+  }
+  .third > button {
+    border: none;
+    outline: none;
+    padding: 7px;
+    width: 9vw;
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }

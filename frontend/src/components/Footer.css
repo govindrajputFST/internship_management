@@ -1,0 +1,22 @@
+.footer {
+    padding: 20px;
+    background: #282c34;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 12%;
+    align-items: center;
+    margin-top: 13.2%;
+    font-size: larger;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+   
+  }
+  
